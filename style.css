@@ -1,6 +1,16 @@
 body {
     background-color: rgb(253, 251, 251);
     margin-left: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+article {
+    font-size: 18px;
+    line-height: 24px;  
+}
+
+h1 {
+    color: #036b52;
 }
 
 #cabecalho {
