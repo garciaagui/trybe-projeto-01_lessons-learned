@@ -34,6 +34,29 @@ body {
     padding: 10px 0px 10px 40px;
 }
 
+main {
+    margin: auto;
+    margin-top: 120px;
+    max-width: 1500px;
+}
+
+#info-criador, #licoes {
+    margin-bottom: 15px;
+}
+
+#info-criador #info-textual {
+    display: inline-block;
+}
+
+#info-textual {
+    vertical-align: top;
+}
+
+#minha_foto {
+    width: 250px;
+}
+
+
 article {
     font-size: 18px;
     line-height: 24px;  
@@ -44,10 +67,6 @@ h1 {
 }
 
 
-
-#minha_foto {
-    width: 300px;
-}
 
 table {
     border: 2px solid;
