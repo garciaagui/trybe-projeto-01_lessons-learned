@@ -9,7 +9,6 @@ body {
     background-color: rgb(253, 251, 251);
 }
 
-/* Header e Nav - abaixo*/
 
 #cabecalho {
     background-color: #036b52;
@@ -35,10 +34,6 @@ body {
     display: inline-block;
     padding: 10px 0px 10px 40px;
 }
-
-/* Header e Nav - acima*/
-
-/* Main e Sections - abaixo */
 
 main {
     margin: auto;
@@ -67,10 +62,10 @@ p {
 }
 
 .negrito {
-    font-weight: 1000;
+    font-weight: 900;
 }
 
-#info-criador-projeto, #licoes, #aprendizado {
+#info-criador-projeto, #licoes, #aprendizado, #empresas-parceiras {
     margin-bottom: 50px;
 }
 
@@ -101,13 +96,13 @@ a {
 
 
 article {
-    display: inline-block;
+    float: left;
     max-width: 69%;
     text-align: justify;
 }
 
 aside {
-    display: inline-block;
+    float: right;
     max-width: 29%;
     margin-left: 25px;
     vertical-align: top;
@@ -118,12 +113,9 @@ aside {
     text-align: justify;
 }
 
-/* Main e Sections - acima */
-
-
 table {
     border: 2px solid;
-    width: 50%;
+    width: 40%;
 }
 
 th, td{
