@@ -1,7 +1,37 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    }
+
+
 body {
     background-color: rgb(253, 251, 251);
-    margin-left: 10px;
-    font-family:Arial, Helvetica, sans-serif;
+}
+
+#cabecalho {
+    background-color: #036b52;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#titulo {
+    color: rgb(253, 251, 251);
+    padding: 15px 0px 15px 40px;
+    border-bottom: 1px solid #2fc18c;
+}
+
+#menu-nav {
+    background-color: #2fc18c;
+}
+
+#menu-nav ul li {
+    color: rgb(253, 251, 251);
+    list-style: none;
+    font-size: 18px;
+    display: inline-block;
+    padding: 10px 0px 10px 40px;
 }
 
 article {
@@ -13,10 +43,7 @@ h1 {
     color: #036b52;
 }
 
-#cabecalho {
-    position: fixed;
-    top: 0;
-}
+
 
 #minha_foto {
     width: 300px;
