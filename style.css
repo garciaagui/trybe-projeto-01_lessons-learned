@@ -1,136 +1,141 @@
-/* GLOBAL */
+/* Seletores distribuídos em grupos, na seguinte ordem: GLOBAIS -> IDs -> CLASSES */
+/* Dentro de cada grupo, os seletores estão em ordem alfabética */
+
+/* GLOBAIS */
 
 * {
-    margin: 0;
-    box-sizing: border-box;
-    font-family:Arial, Helvetica, sans-serif;
-    }
-
-
-body {
-    background-color: rgb(253, 251, 251);
-}
-
-
-#cabecalho {
-    background-color: #036b52;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-#titulo {
-    color: rgb(253, 251, 251);
-    padding: 15px 0px 15px 40px;
-    border-bottom: 1px solid #2fc18c;
-}
-
-#menu-nav {
-    background-color: #2fc18c;
-}
-
-#menu-nav ul li {
-    color: rgb(253, 251, 251);
-    list-style: none;
-    font-size: 18px;
-    display: inline-block;
-    padding: 10px 0px 10px 40px;
-}
-
-main {
-    margin: auto;
-    margin-top: 130px;
-    max-width: 1500px;
-    font-size: 18px;
-    line-height: 25px;
-}
-
-section {
-    display: inline-block;
-}
-
-h2 {
-    color: #036b52;
-    margin-bottom: 10px;
-}
-
-h3 {
-    margin-top: 10px;
-    margin-bottom: 12px;
-}
-
-p {
-    margin-bottom: 5px;
-}
-
-.negrito {
-    font-weight: 900;
-}
-
-#info-criador-projeto, #licoes, #aprendizado, #empresas-parceiras {
-    margin-bottom: 50px;
-}
-
-#info-textual {
-    vertical-align: top;
-    max-width: 80%;
-    margin-left: 25px;
-    text-align: justify;
-}
-
-#minha_foto {
-    width: 250px;
-}
-
-.redes {
-    width: 46px;
-    margin-right: 10px;
+  box-sizing: border-box;
+  font-family:Arial, Helvetica, sans-serif;
+  margin: 0;
+  text-align: justify;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
-
-#licoes_aprendidas, #licoes_a_aprender {
-    margin-right: 50px;
-}
-
-
 
 article {
-    float: left;
-    max-width: 69%;
-    text-align: justify;
+  float: left;
+  max-width: 69%;
 }
 
 aside {
-    float: right;
-    max-width: 29%;
-    margin-left: 25px;
-    vertical-align: top;
-    color: rgb(253, 251, 251);
-    padding: 15px;
-    font-size: 16px;
-    background-color:#036b52;
-    text-align: justify;
+  background-color:#036b52;
+  color: rgb(253, 251, 251);
+  font-size: 16px;
+  float: right;
+  margin-left: 25px;
+  max-width: 29%;
+  padding: 15px;
+  vertical-align: top;
 }
 
-table {
-    border: 2px solid;
-    width: 40%;
-}
-
-th, td{
-    border: 1px solid;
-}
-
-
-td {
-    padding-left: 10px;
+body {
+  background-color: rgb(253, 251, 251);
 }
 
 footer {
-    padding: 10px 0px 0px 10px;
-    background-color:#036b52;
-    color: rgb(253, 251, 251);
+  background-color:#036b52;
+  color: rgb(253, 251, 251);
+  padding: 10px 0px 0px 40px;
+}
+
+h2 {
+  color: #036b52;
+  margin-bottom: 10px;
+}
+
+h3 {
+  margin-bottom: 12px;
+  margin-top: 10px;
+}
+
+main {
+  font-size: 18px;
+  line-height: 25px;
+  margin: auto;
+  margin-top: 130px;
+  max-width: 1500px;
+}
+
+p {
+  margin-bottom: 5px;
+}
+
+section {
+  display: inline-block;
+}
+
+table {
+  border: 2px solid;
+  width: 40%;
+}
+
+td {
+  padding-left: 10px;
+}
+
+th, td {
+  border: 1px solid;
+}
+
+/* IDs */
+
+#cabecalho {
+  background-color: #036b52;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#container_projeto-criador, #container_licoes, #container_aprendizado, #container_parcerias {
+  margin-bottom: 50px;
+}
+
+#info-projeto-criador {
+  margin-left: 25px;
+  max-width: 80%;
+  vertical-align: top;
+}
+
+#licoes_aprendidas, #licoes_a_aprender {
+  margin-right: 50px;
+}
+
+#menu-nav {
+  background-color: #2fc18c;
+}
+
+#menu-nav ul li {
+  color: rgb(253, 251, 251);
+  display: inline-block;
+  font-size: 18px;
+  list-style: none;
+  padding: 10px 0px 10px 40px;
+}
+
+#menu-nav ul li a {
+  color:#013326;
+  font-weight: 900;
+}
+
+#imagem_criador {
+  width: 250px;
+}
+
+#titulo {
+  border-bottom: 1px solid #2fc18c;
+  color: rgb(253, 251, 251);
+  padding: 15px 0px 15px 40px;
+}
+
+/* CLASSES */
+
+.destaque-negrito {
+  font-weight: 900;
+}
+
+.imagem_redes-sociais {
+  margin-right: 10px;
+  width: 46px;
 }
