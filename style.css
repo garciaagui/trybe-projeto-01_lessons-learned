@@ -1,3 +1,5 @@
+/* GLOBAL */
+
 * {
     margin: 0;
     box-sizing: border-box;
@@ -122,6 +124,13 @@ th, td{
     border: 1px solid;
 }
 
+
 td {
-    padding-left: 5px;
+    padding-left: 10px;
+}
+
+footer {
+    padding: 10px 0px 0px 10px;
+    background-color:#036b52;
+    color: rgb(253, 251, 251);
 }
